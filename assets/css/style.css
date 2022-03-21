@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+
+
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 100px;
+    border-radius: 500px;
+}
+.navigation ul li{
+    display: inline;
+    list-style: none;
+    text-align: right;
+    
+}
+
+
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    flex:1;
+}
+
+.container{
+    display:flex;
+    
+}
+
+.Bio{
+    
+    border-radius: 50px;
+    margin-left: 20%;
+   
+}
+
+.Mywork{
+    
+    border-radius: 50px;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+@media (min-width:1000px){
+    .container{
+       font-size: 2.5rem;
+              
+    }
+    
+}
+@media (max-width:1000px){
+    .container{
+       display: block;
+       font-size: 2.5rem;
+    }  
+}
+@media(max-width:1000px){
+    .box{
+        width: 300px;
+        height: 300px;
+        
+    }
+}
+/* for the image tag */
+@media(max-width:1000px){
+    img{
+        margin-left: 40px;
+    }
+}
+
+@media(min-width:1000px){
+    img{
+        margin-left:45%;
+    }
+}
+
+/* for the h2 tag*/
+@media(min-width: 1000px){
+    h2{
+        margin-left:100px;
+    }
+}
+@media(max-width:1000px){
+   h2{
+       text-align: left;
+   }
+}
