@@ -1,20 +1,4 @@
 
-.wrapper{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    margin-left: 30%;
-    margin-top: 40px;
-    grid-column-gap: 1em;
-    grid-row-gap:3em;
-    
-   
-}
-.wrapper> div{
-    background:#eee;
-    padding: 2px;
-    width:300px;
-    height: 300px;
-}
 
 
 
@@ -24,7 +8,7 @@
 
 
 
-.name{
+#name{
     text-align: left;
     margin-left: none;
     margin-top: none;
@@ -40,6 +24,15 @@ h2{
     
 }
 
+h3{
+    margin-top: 80px;
+}
+h4{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
 img{
     height: 400px;
     width: 400px;
@@ -50,13 +43,15 @@ img{
 
 
 
-/*this is the header code*/
+/*this is the header list code*/
  .navigation{
     list-style: none;
     margin-left: -0.5em;
     margin-right: -0.5em;
     padding-left: 0;   
     text-align: right;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .navigation ul li {
@@ -64,13 +59,27 @@ img{
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-/*this is the header code*/
+/*this is the header list code*/
+
+/*this is the footer list code*/
+.contact {
+    list-style: none;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding-left: 0;   
+    text-align: center;
+    padding-right: 20px;
+    margin-bottom: 80px;
+}
+.contact ul li{
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em; 
+}
+/*this is the header list code*/
 
 
-
-
-
-
+/* css flexbox*/
 .box{
     width: 100px;
     height: 100px;
@@ -81,19 +90,35 @@ img{
     display:flex;
     
 }
-
 .Bio{
     
     border-radius: 50px;
     margin-left: 20%;
    
 }
-
 .Mywork{
     
     border-radius: 50px;
     margin-left: 20%;
 }
+/* css flexbox*/
+
+/* css rules for grid*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 30%;
+    margin-top: 40px;
+    grid-column-gap: 1em;
+    grid-row-gap:3em;   
+}
+.wrapper> div{
+    background:#eee;
+    padding: 2px;
+    width:300px;
+    height: 300px;
+}
+/* css rules for grid*/
 
 /* media query for grid */
 @media (max-width:1460px){
