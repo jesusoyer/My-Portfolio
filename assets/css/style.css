@@ -1,5 +1,20 @@
 
-
+.wrapper{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 30%;
+    margin-top: 40px;
+    grid-column-gap: 1em;
+    grid-row-gap:3em;
+    
+   
+}
+.wrapper> div{
+    background:#eee;
+    padding: 2px;
+    width:300px;
+    height: 300px;
+}
 
 
 
@@ -24,7 +39,9 @@ img{
 .navigation ul li{
     display: inline;
     list-style: none;
-    text-align: right;
+    
+
+    
     
 }
 
@@ -56,9 +73,39 @@ img{
     margin-left: 20%;
 }
 
+/* media query for grid */
+@media (max-width:1460px){
+    .wrapper{  display: grid;
+      grid-template-columns: 30% 30% 30%;
+      margin-left: 10%;
+      margin-top: 40px;
+      grid-column-gap: 3em;
+      grid-row-gap:3em;
+    }
+  }
+  @media (max-width:1000px){
+    .wrapper{  display: grid;
+      grid-template-columns: 30% 30%;
+      margin-left: 30%;
+      margin-top: 40px;
+      grid-column-gap: 30%;
+      grid-row-gap:3em;
+    }
+  }
+  @media (max-width:800px){
+    .wrapper{  display: grid;
+      grid-template-columns: 30% ;
+      margin-left: 30%;
+      margin-top: 40px;
+      grid-column-gap: 30%;
+      grid-row-gap:3em;
+    }
+  }
+  /*media query for grid*/
 
 
 
+  
 
 
 @media (min-width:1000px){
@@ -82,17 +129,28 @@ img{
     }
 }
 /* for the image tag */
-@media(max-width:1000px){
+@media (max-width:1500px){
     img{
-        margin-left: 40px;
+        margin-left: 40%;
+        margin-right: 30px;
     }
 }
 
-@media(min-width:1000px){
+@media(max-width:1000px){
     img{
-        margin-left:45%;
+        margin-left: 40%;
+        margin-right: 30px;
     }
 }
+
+@media(max-width:800px){
+    img{
+        margin-left:20%;
+    }
+}
+
+
+
 
 /* for the h2 tag*/
 @media(min-width: 1000px){
