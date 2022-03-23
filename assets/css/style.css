@@ -122,44 +122,115 @@ img{
 }
 /* css rules for grid*/
 
+
+
+
+
+
+
+
+/*background image and text for first project under work */
 #first{
     background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/Screen Shot 2022-03-23 at 10.54.30 AM (2).png");
     background-size:300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    text-align: center;
 }
+.project1{
+    text-align: center;
+    margin-top: 95%;
+    background-color: grey;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+#first:hover {
+    background-size: 400px 400px;
+    width:320px;
+    height: 320px;
+    
+}
+/*background image and text for first project under work */
+
+/*background image and text for second project under work */
 #second{
     background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/laptops_image.avif");
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+.project2{
+    text-align: center;
+    margin-top: 95%;
+    background-color: grey;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+/*background image and text for second project under work */
+
+/*background image and text for third project under work */
 #third{
     background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/keyboard_images.avif");
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+.project3{
+    text-align: center;
+    margin-top: 95%;
+    background-color: grey;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+/*background image and text for third project under work */
+
+/*background image and text for fourth project under work */
 #fourth{
     background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/circuit_board_image.avif");
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+.project4{
+    text-align: center;
+    margin-top: 95%;
+    background-color: grey;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+/*background image and text for fourth project under work */
+
+/*background image and text for fifth project under work */
 #fifth{
     background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/pakata-goh-RDolnHtjVCY-unsplash.jpg");
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+.project5{
+    text-align: center;
+    margin-top: 95%;
+    background-color: grey;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+/*background image and text for fifth project under work */
+
+/*background image and text for sixth project under work */
 #sixth{
     background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
-
-
+.project6{
+    text-align: center;
+    margin-top: 95%;
+    background-color: grey;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+/*background image and text for sixth project under work */
 
 
 
