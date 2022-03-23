@@ -1,13 +1,5 @@
 
 
-
-
-
-
-
-
-
-
 #name{
     text-align: left;
     margin-left: none;
@@ -35,10 +27,12 @@ h4{
 
 img{
     height: 400px;
-    width: 400px;
+    width: 450px;
     margin-left: 40%;
     margin-top: 100px;
     border-radius: 500px;
+    border-color: grey;
+    border-style: solid;
 }
 
 
@@ -50,8 +44,9 @@ img{
     margin-right: -0.5em;
     padding-left: 0;   
     text-align: right;
-    margin-top: 30px;
+    margin-top: none;
     margin-bottom: 60px;
+    background-image: radial-gradient(white,grey);
 }
 
 .navigation ul li {
@@ -90,16 +85,23 @@ img{
     display:flex;
     
 }
-.Bio{
+.intro{
     
     border-radius: 50px;
     margin-left: 20%;
+    background-image: linear-gradient(white,grey);
+    text-align: center;
+    
    
 }
-.Mywork{
+.Mybio{
     
     border-radius: 50px;
     margin-left: 20%;
+    background-image: linear-gradient(white,grey);
+    text-align: center;
+    font-size: 14px;
+    
 }
 /* css flexbox*/
 
@@ -119,6 +121,51 @@ img{
     height: 300px;
 }
 /* css rules for grid*/
+
+#first{
+    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/Screen Shot 2022-03-23 at 10.54.30 AM (2).png");
+    background-size:300px 300px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+#second{
+    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/laptops_image.avif");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+#third{
+    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/keyboard_images.avif");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+#fourth{
+    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/circuit_board_image.avif");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+#fifth{
+    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/pakata-goh-RDolnHtjVCY-unsplash.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+#sixth{
+    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
 
 /* media query for grid */
 @media (max-width:1460px){
