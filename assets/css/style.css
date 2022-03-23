@@ -8,7 +8,9 @@
     margin-right: 50%;
     
 }
-
+body{
+    background-color: lightgrey;
+}
 
 h2{
     text-align: center;
@@ -18,11 +20,15 @@ h2{
 
 h3{
     margin-top: 80px;
+    color:black;
+   
 }
 h4{
     text-align: center;
     margin-bottom: 50px;
 }
+
+
 
 
 img{
@@ -31,8 +37,9 @@ img{
     margin-left: 40%;
     margin-top: 100px;
     border-radius: 500px;
-    border-color: grey;
+    border-color: black;
     border-style: solid;
+    border-width: 2px;
 }
 
 
@@ -47,6 +54,9 @@ img{
     margin-top: none;
     margin-bottom: 60px;
     background-image: radial-gradient(white,grey);
+    padding:15px;
+    border-style: solid;
+    border-color:black;
 }
 
 .navigation ul li {
@@ -87,23 +97,37 @@ img{
 }
 .intro{
     
-    border-radius: 50px;
+    
     margin-left: 20%;
     background-image: linear-gradient(white,grey);
+    height: 200px;
     text-align: center;
+    border-style: solid;
+    border-color:black;
+   
     
    
 }
 .Mybio{
     
-    border-radius: 50px;
+    
     margin-left: 20%;
     background-image: linear-gradient(white,grey);
-    text-align: center;
+    text-align: left;
     font-size: 14px;
+    border-style:solid;
+    border-color:black;
+    height: 200px;
     
 }
 /* css flexbox*/
+
+#middle{
+    background-image: radial-gradient(grey, white);
+    color:black;
+    border-style: solid;
+    border-color:black;
+}
 
 /* css rules for grid*/
 .wrapper{
@@ -136,12 +160,15 @@ img{
     background-repeat: no-repeat;
     border-radius: 20px;
     text-align: center;
+    border-style:solid;
+    border-color: grey;
+    border-width: 10px;
 }
 .project1{
     text-align: center;
-    margin-top: 95%;
+    margin-top: 90%;
     background-color: grey;
-    border-radius: 0px 0px 20px 20px;
+    opacity:0.5;
     padding: 10px;
 }
 #first:hover {
@@ -150,6 +177,13 @@ img{
     height: 320px;
     
 }
+.project1:hover {
+    color:white;
+    opacity: 1;
+    
+    
+}
+
 /*background image and text for first project under work */
 
 /*background image and text for second project under work */
@@ -158,14 +192,30 @@ img{
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 10px;
 }
 .project2{
     text-align: center;
-    margin-top: 95%;
+    margin-top: 90%;
     background-color: grey;
-    border-radius: 0px 0px 20px 20px;
+    opacity:0.5;
     padding: 10px;
 }
+#second:hover {
+    background-size: 400px 400px;
+    width:320px;
+    height: 320px;
+    
+}
+.project2:hover {
+    color:white;
+    opacity: 1;
+    
+    
+}
+
 /*background image and text for second project under work */
 
 /*background image and text for third project under work */
@@ -174,14 +224,30 @@ img{
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 10px;
 }
 .project3{
     text-align: center;
-    margin-top: 95%;
+    margin-top: 90%;
     background-color: grey;
-    border-radius: 0px 0px 20px 20px;
+    opacity:0.5;
     padding: 10px;
 }
+#third:hover {
+    background-size: 400px 400px;
+    width:320px;
+    height: 320px;
+    
+}
+.project3:hover {
+    color:white;
+    opacity: 1;
+    
+    
+}
+
 /*background image and text for third project under work */
 
 /*background image and text for fourth project under work */
@@ -190,14 +256,31 @@ img{
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 10px;
 }
 .project4{
     text-align: center;
-    margin-top: 95%;
+    margin-top: 90%;
     background-color: grey;
-    border-radius: 0px 0px 20px 20px;
+    opacity:0.5;
     padding: 10px;
 }
+#fourth:hover {
+    background-size: 400px 400px;
+    width:320px;
+    height: 320px;
+    
+}
+.project4:hover {
+    color:white;
+    opacity: 1;
+    
+    
+}
+
+
 /*background image and text for fourth project under work */
 
 /*background image and text for fifth project under work */
@@ -206,14 +289,30 @@ img{
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 10px;
 }
 .project5{
     text-align: center;
-    margin-top: 95%;
+    margin-top: 90%;
     background-color: grey;
-    border-radius: 0px 0px 20px 20px;
+    opacity:0.5;
     padding: 10px;
 }
+#fifth:hover {
+    background-size: 400px 400px;
+    width:320px;
+    height: 320px;
+    
+}
+.project5:hover {
+    color:white;
+    opacity: 1;
+    
+    
+}
+
 /*background image and text for fifth project under work */
 
 /*background image and text for sixth project under work */
@@ -222,16 +321,40 @@ img{
     background-size: 300px 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 10px;
 }
 .project6{
     text-align: center;
-    margin-top: 95%;
+    margin-top: 90%;
     background-color: grey;
-    border-radius: 0px 0px 20px 20px;
+    opacity:0.5;
     padding: 10px;
+    
+    
+}
+#sixth:hover {
+    background-size: 400px 400px;
+    width:320px;
+    height: 320px;
+    
+}
+.project6:hover {
+    color:white;
+    opacity: 1;
+    
+    
 }
 /*background image and text for sixth project under work */
 
+
+
+footer{
+    background-image:radial-gradient(white,grey);
+    
+
+}
 
 
 
@@ -266,11 +389,7 @@ img{
       grid-row-gap:3em;
     }
   }
-  /*media query for grid*/
-
-
-
-  
+  /*media query for grid*/  
 
 
 @media (min-width:1000px){
@@ -310,6 +429,8 @@ img{
     }
 }
 
+
+
 @media(max-width:800px){
     img{
         margin-left:20%;
@@ -318,6 +439,32 @@ img{
 
 
 
+@media(max-width:1000px){
+    .intro{
+        margin-left: 60%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:800px){
+    .intro{
+        margin-left: 50%;
+    }
+}
+
+
+/*for the bio class*/
+@media (max-width:1000px) {
+    .Mybio{
+        margin-left: 60%;
+    }
+    
+}
+@media(max-width:800px){
+    .Mybio{
+        margin-left: 50%
+    }
+}
+/*for the bio class*/
 
 /* for the h2 tag*/
 @media(min-width: 1000px){
