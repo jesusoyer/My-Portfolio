@@ -19,7 +19,7 @@ h2{
 }
 
 h3{
-    margin-top: 80px;
+    margin-top: 200px;
     color:black;
    
 }
@@ -139,214 +139,163 @@ img{
     grid-row-gap:3em;   
 }
 .wrapper> div{
-    background:#eee;
+   
     padding: 2px;
     width:300px;
     height: 300px;
+   
 }
 /* css rules for grid*/
 
-
-
-
-
-
-
-
-/*background image and text for first project under work */
-#first{
-    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/Screen Shot 2022-03-23 at 10.54.30 AM (2).png");
-    background-size:300px 300px;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    text-align: center;
-    border-style:solid;
-    border-color: grey;
-    border-width: 10px;
+.image1{
+    width:300px;
+    height: 300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:grey;
+    margin-left:100px;
+    border-width: 5px;
 }
 .project1{
     text-align: center;
-    margin-top: 90%;
-    background-color: grey;
-    opacity:0.5;
+    /*opacity:0.5;*/
     padding: 10px;
+    position:relative;
+    left:105px;
+    bottom: 40px;
+    color:white;
 }
-#first:hover {
+
+.image1:hover {
     background-size: 400px 400px;
     width:320px;
     height: 320px;
-    
-}
-.project1:hover {
-    color:white;
-    opacity: 1;
-    
-    
 }
 
-/*background image and text for first project under work */
-
-/*background image and text for second project under work */
-#second{
-    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/laptops_image.avif");
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    border-style:solid;
-    border-color: grey;
-    border-width: 10px;
+.image2{
+    width:300px;
+    height:300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:grey;
+    margin-left:100px;
+    border-width: 5px;
 }
 .project2{
     text-align: center;
-    margin-top: 90%;
-    background-color: grey;
-    opacity:0.5;
+    /*opacity:0.5;*/
     padding: 10px;
+    position:relative;
+    left:105px;
+    bottom: 40px;
+    color:white;
 }
-#second:hover {
+.image2:hover {
     background-size: 400px 400px;
     width:320px;
     height: 320px;
-    
-}
-.project2:hover {
-    color:white;
-    opacity: 1;
-    
-    
 }
 
-/*background image and text for second project under work */
-
-/*background image and text for third project under work */
-#third{
-    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/keyboard_images.avif");
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    border-style:solid;
-    border-color: grey;
-    border-width: 10px;
-}
+.image3{
+    width:300px;
+    height: 300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:grey;
+    margin-left:100px;
+    border-width: 5px;
+} 
 .project3{
     text-align: center;
-    margin-top: 90%;
-    background-color: grey;
-    opacity:0.5;
+    /*opacity:0.5;*/
     padding: 10px;
+    position:relative;
+    left:105px;
+    bottom: 40px;
+    color:white;
 }
-#third:hover {
+.image3:hover {
     background-size: 400px 400px;
     width:320px;
     height: 320px;
-    
-}
-.project3:hover {
-    color:white;
-    opacity: 1;
-    
-    
 }
 
-/*background image and text for third project under work */
-
-/*background image and text for fourth project under work */
-#fourth{
-    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/circuit_board_image.avif");
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    border-style:solid;
-    border-color: grey;
-    border-width: 10px;
+.image4{
+    width:300px;
+    height:300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:grey;
+    margin-left:100px;
+    border-width: 5px;
 }
 .project4{
     text-align: center;
-    margin-top: 90%;
-    background-color: grey;
-    opacity:0.5;
+    /*opacity:0.5;*/
     padding: 10px;
+    position:relative;
+    left:105px;
+    bottom: 40px;
+    color:white;
 }
-#fourth:hover {
+.image4:hover {
     background-size: 400px 400px;
     width:320px;
     height: 320px;
-    
-}
-.project4:hover {
-    color:white;
-    opacity: 1;
-    
-    
 }
 
-
-/*background image and text for fourth project under work */
-
-/*background image and text for fifth project under work */
-#fifth{
-    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/pakata-goh-RDolnHtjVCY-unsplash.jpg");
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    border-style:solid;
-    border-color: grey;
-    border-width: 10px;
+.image5{
+    width:300px;
+    height: 300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:grey;
+    margin-left:100px;
+    border-width: 5px;
 }
 .project5{
     text-align: center;
-    margin-top: 90%;
-    background-color: grey;
-    opacity:0.5;
+    /*opacity:0.5;*/
     padding: 10px;
+    position:relative;
+    left:105px;
+    bottom: 40px;
+    color:white;
 }
-#fifth:hover {
+.image5:hover {
     background-size: 400px 400px;
     width:320px;
     height: 320px;
-    
 }
-.project5:hover {
-    color:white;
-    opacity: 1;
-    
-    
-}
-
-/*background image and text for fifth project under work */
-
-/*background image and text for sixth project under work */
-#sixth{
-    background-image: url("/Users/jesusoyervides/My_Portfolio/My-Portfolio/assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    border-style:solid;
-    border-color: grey;
-    border-width: 10px;
+.image6{
+    width:300px;
+    height:300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:grey;
+    margin-left:100px;
+    border-width: 5px;
 }
 .project6{
     text-align: center;
-    margin-top: 90%;
-    background-color: grey;
-    opacity:0.5;
+    /*opacity:0.5;*/
     padding: 10px;
-    
-    
+    position:relative;
+    left:105px;
+    bottom: 40px;
+    color:white;
 }
-#sixth:hover {
+.image6:hover {
     background-size: 400px 400px;
     width:320px;
     height: 320px;
-    
 }
-.project6:hover {
-    color:white;
-    opacity: 1;
-    
-    
-}
-/*background image and text for sixth project under work */
+
+
+
+
+
+
 
 
 
@@ -362,6 +311,27 @@ footer{
 
 
 /* media query for grid */
+
+@media (max-width:4000px){
+    .wrapper{  display: grid;
+      grid-template-columns: 30% 30% 30%;
+      margin-left: 10%;
+      margin-top: 40px;
+      grid-column-gap: 3em;
+      grid-row-gap:3em;
+    }
+
+
+
+@media (max-width:2000px){
+    .wrapper{  display: grid;
+      grid-template-columns: 30% 30% 30%;
+      margin-left: 10%;
+      margin-top: 40px;
+      grid-column-gap: 3em;
+      grid-row-gap:3em;
+    }
+
 @media (max-width:1460px){
     .wrapper{  display: grid;
       grid-template-columns: 30% 30% 30%;
@@ -371,19 +341,19 @@ footer{
       grid-row-gap:3em;
     }
   }
-  @media (max-width:1000px){
+  @media (max-width:1200px){
     .wrapper{  display: grid;
       grid-template-columns: 30% 30%;
-      margin-left: 30%;
+      
       margin-top: 40px;
       grid-column-gap: 30%;
       grid-row-gap:3em;
     }
   }
-  @media (max-width:800px){
+  @media (max-width:600px){
     .wrapper{  display: grid;
       grid-template-columns: 30% ;
-      margin-left: 30%;
+      margin-left: 0%;
       margin-top: 40px;
       grid-column-gap: 30%;
       grid-row-gap:3em;
