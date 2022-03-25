@@ -32,7 +32,14 @@ h4{
     margin-bottom: 50px;
 }
 
-
+@keyframes slideInFromLeft{
+    0%{
+        transform: translateX(-600%);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
 
 
 .jesus{
@@ -45,6 +52,7 @@ h4{
     border-width: 2px;
     left:300px;
     box-shadow: 10px 5px 5px #3e66a8;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
 
 }
 
@@ -112,6 +120,7 @@ h4{
     font-size: 2em;    
     background-color: #a2b8dd;
     box-shadow: 10px 5px 5px #3e66a8;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
     
 }
 .headline{
@@ -124,7 +133,8 @@ h4{
     right:800px;
     font-size: 1em;
     background-color:#a2b8dd;
-    box-shadow: 10px 5px 5px #3e66a8;   
+    box-shadow: 10px 5px 5px #3e66a8; 
+    animation: 2s ease-out 0s 1 slideInFromLeft;
 }
 .bio{
     text-align: left;
@@ -136,8 +146,9 @@ h4{
     top:450px;
     right:800px;
     font-size: 1em;
-    background-color:#a2b8dd;
-    box-shadow: 10px 5px 5px #3e66a8;   
+    /*background-color:#a2b8dd;
+    box-shadow: 10px 5px 5px #3e66a8;*/
+    animation: 2s ease-out 0s 1 slideInFromLeft;
 }
 /* css flexbox*/
 
@@ -172,7 +183,7 @@ h4{
 .image1{
     width:300px;
     height: 300px;
-    border-radius: 25px;
+   
     border-style: solid;
     border-color:white;
     margin-left:100px;
@@ -198,7 +209,7 @@ h4{
 .image2{
     width:300px;
     height:300px;
-    border-radius: 25px;
+    
     border-style: solid;
     border-color:white;
     margin-left:100px;
@@ -223,7 +234,7 @@ h4{
 .image3{
     width:300px;
     height: 300px;
-    border-radius: 25px;
+    
     border-style: solid;
     border-color:white;
     margin-left:100px;
@@ -248,7 +259,7 @@ h4{
 .image4{
     width:300px;
     height:300px;
-    border-radius: 25px;
+    
     border-style: solid;
     border-color:white;
     margin-left:100px;
@@ -273,7 +284,7 @@ h4{
 .image5{
     width:300px;
     height: 300px;
-    border-radius: 25px;
+    
     border-style: solid;
     border-color:white;
     margin-left:100px;
@@ -297,7 +308,7 @@ h4{
 .image6{
     width:300px;
     height:300px;
-    border-radius: 25px;
+    
     border-style: solid;
     border-color:white;
     margin-left:100px;
@@ -428,8 +439,8 @@ footer{
         position: relative;
         left:90%;
         margin-right: 200px;
-        height: 400px;
-        width:400px;
+        height: 500px;
+        width:500px;
     }
     }
 }
@@ -576,7 +587,8 @@ footer{
         height: 90px;
         width:400px;
         position:relative;
-        top:250px;
+        top:50px;
+        left:550px;
         font-size: 3em;
         background-color:#a2b8dd;
         box-shadow: 10px 5px 5px #3e66a8;  
@@ -589,7 +601,8 @@ footer{
         height: 100px;
         width:400px;
         position:relative;
-        top:250px;
+        top:50px;
+        left:400px;
         font-size: 1em;
         background-color:#a2b8dd;
         box-shadow: 10px 5px 5px #3e66a8;  
@@ -601,7 +614,7 @@ footer{
         height: 100px;
         width:400px;
         position:relative;
-        top:250px;
+        top:20px;
         font-size: 1em;
         background-color:#a2b8dd;
         box-shadow: 10px 5px 5px #3e66a8; 
@@ -630,13 +643,13 @@ footer{
         text-align: left;
         height: 100px;
         width:400px;
-        left:-800px;
+        left:-900px;
         position:relative;
-        top:500px;
+        top:400px;
         right:800px;
         font-size: 30px;
-        background-color:#a2b8dd;
-        box-shadow: 10px 5px 5px #3e66a8;  
+       /*background-color:#a2b8dd;
+    box-shadow: 10px 5px 5px #3e66a8;*/ 
     }
     
 }
@@ -646,15 +659,15 @@ footer{
 
     .bio{
         text-align: left;
-        height: 100px;
-        width:400px;
+        height: 270px;
+        width:500px;
         left:-700px;
         position:relative;
-        top:500px;
+        top:400px;
         right:800px;
-        font-size: 30px;
-        background-color:#a2b8dd;
-        box-shadow: 10px 5px 5px #3e66a8;  
+        font-size: 29px;
+        /*background-color:#a2b8dd;
+    box-shadow: 10px 5px 5px #3e66a8;*/  
     }
     
 }
@@ -666,11 +679,11 @@ footer{
         width:400px;
         left:-500px;
         position:relative;
-        top:500px;
+        top:400px;
         right:800px;
-        font-size: 30px;
-        background-color:#a2b8dd;
-        box-shadow: 10px 5px 5px #3e66a8;  
+        font-size: 20px;
+        /*background-color:#a2b8dd;
+    box-shadow: 10px 5px 5px #3e66a8;*/  
     }
     
 }
@@ -680,33 +693,50 @@ footer{
 @media (max-width:1000px){
     .bio{
         text-align: left;
-        height: 100px;
+        height: 130px;
         width:400px;
         left:180px;
         position:relative;
         top:550px;
         right:800px;
-        font-size: 1.5em;
-        background-color:#a2b8dd;
-        box-shadow: 10px 5px 5px #3e66a8;  
+        font-size: 14px;
+       /*background-color:#a2b8dd;
+    box-shadow: 10px 5px 5px #3e66a8;*/  
     }
     
 }
 @media(max-width:800px){
     .bio{
         text-align: left;
-        height: 100px;
+        height: 150px;
         width:400px;
         left:180px;
         position:relative;
         top:520px;
         right:800px;
-        font-size: 1em;
-        background-color:#a2b8dd;
-        box-shadow: 10px 5px 5px #3e66a8;  
+        font-size: 15px;
+        /*background-color:#a2b8dd;
+    box-shadow: 10px 5px 5px #3e66a8;*/ 
     }
 }
 /*for the bio class*/
+
+@media (max-width:800px){
+    #middle{
+        box-shadow: 10px 5px 5px #3e66a8;
+        background-color: #3e66a8;
+         color:white;
+         font-weight: lighter;
+         margin-right: 20px;
+         text-align: center;
+    }
+}
+
+
+
+
+
+
 
 /* for the h2 tag*/
 @media(min-width: 1000px){
@@ -719,3 +749,4 @@ footer{
        text-align: left;
    }
 }
+
