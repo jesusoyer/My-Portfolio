@@ -22,9 +22,7 @@ h2{
 
 h3{
     margin-top: 200px;
-    color:white;
-    font-weight: lighter;
-    margin-left: 12px;
+    color:black;
    
 }
 h4{
@@ -146,8 +144,7 @@ h4{
 #middle{
     box-shadow: 10px 5px 5px #3e66a8;
    background-color: #3e66a8;
-    color:white;
-    font-weight: lighter;
+    color:black;
     margin-right: 20px;
 }
 
@@ -333,8 +330,6 @@ footer{
     margin-left:40px;
     position:relative;
     bottom:20px;
-    color:white;
-    font-weight: lighter;
     
     
 
@@ -624,35 +619,17 @@ footer{
 
 
 /*for the bio class*/
-@media (max-width:3000px){
+@media (max-width:2500px){
 
     .bio{
         text-align: left;
         height: 100px;
         width:400px;
-        left:-800px;
+        left:180px;
         position:relative;
-        top:500px;
+        top:550px;
         right:800px;
-        font-size: 30px;
-        background-color:#a2b8dd;
-        box-shadow: 10px 5px 5px #3e66a8;  
-    }
-    
-}
-
-
-@media (max-width:2000px){
-
-    .bio{
-        text-align: left;
-        height: 100px;
-        width:400px;
-        left:-700px;
-        position:relative;
-        top:500px;
-        right:800px;
-        font-size: 30px;
+        font-size: 2em;
         background-color:#a2b8dd;
         box-shadow: 10px 5px 5px #3e66a8;  
     }
