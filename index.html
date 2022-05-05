@@ -5,81 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Jesus' Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
 <body>
-<header>
-    
-   <nav> 
-    <div class="navigation">
-        <ul> 
-        <li id="name">Jesus' Portfolio page</li>   
-        <li><a href="#middle">My work</a></li>
-        <li><a href="#bottom">Contact me </a></li>
-        </ul>
+    <div class="flex-containerNavbar" class="top">
+        <div class="projects"><a class='linkColor' href="#projects">Projects</div></a>
+        <div class="contact"><a class='linkColor'href="#bottom">Contact</div></a>
+      </div>
+
+
+
+    <div class="flex-container">
+        <div class="header"id='header'>My Portfolio</div>
+ </div>
+ <div class="flex-container">
+    <div class="introduction"id='intro'>Hello my name is Jesus</div>
+</div>
+<div class="flex-container">
+    <div class="skills"id='skills'>my skills are</div>
+</div>
+<div class="flex-container">
+    <div>
+        <img src="images/FullSizeRender (4).jpeg" class="profilepic" id="pic"></div>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4" id="projects">Featured Project</h1>
+      <p class="lead"><a href="https://surfinsofia.github.io/groupproject1/"><img src="images/eagleeye.png"class='eagleeye'></a></p>
     </div>
-   </nav> 
+    <div class="flex-containerFeatureName">Eagle Eye National Park Locator </div>
+  </div>
 
-</header>
-    
-<section id="main">
- <div class="container">
-    <div class="box intro">Welcome to my Portfolio!</div>
-    <div class="box headline">This is where my journey begins!</div>
-    <div class="box bio">My name is Jesus Oyervides jr, I am a student in the UT full stack part-time coding bootcamp. I am originally from West Texas, where the only thing you see is pump jacks and cotton fields for miles. I love creating and building things, whether it be model kits, legos, trading card game decks, or websites. My passion to create has no bounds! I would say my goal is to become the very best software engineer like no one ever was! To learn all the programming languages is my real test! To utilize them is my cause!  </div>
-</div>
-<section>
 
-<section>
-<div class="me">
-    <div ><img class="jesus" src="assets/images/profile_image.jpeg" alt= "image of myself"></div>
-</div>
-</section>
-
-<h2 id="middle">My work</h2>
-
-<div class= "wrapper">
+  <div class="flex-containerOtherProjects" >Other Projects </div>
+  <div class= "wrapper">
    
     <div><a href="https://jesusoyer.github.io/Horiseon/">
-            <img class="image1" src="assets/images/Screen Shot 2022-03-23 at 10.54.30 AM (2).png"></a>
-        <div class="project1" >Horiseon Marketing Project</div>
+            <img class="otherProjects" src="images/horeseon project.png"></a>
+        <div class="project" >Horiseon Marketing Project</div>
     </div>
 
-    <div><img class="image2" src="assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg">
-        <div class="project2">New Project coming soon!</div>
+    <div><a href="https://jesusoyer.github.io/Day-Planner/"><img class="otherProjects" src="images/DayPlanner.png"></a>
+        <div class="project">Day Planner</div>
     </div>
 
-    <div><img class="image3" src="assets/images/keyboard_images.avif">
-        <div class="project3">New Project coming soon!</div>
+    <div><a href="https://jesusoyer.github.io/Password-Generator/"><img class="otherProjects" src="images/PasswordGenerator.png"></a>
+        <div class="project">Password Generator</div>
     </div>
 
-    <div><img class="image4" src="assets/images/laptops_image.avif">
-        <div class="project4">New Project coming soon!</div>
+    <div><a href="https://jesusoyer.github.io/Quiz-game/"><img class="otherProjects" src="images/Quiz game.png"></a>
+        <div class="project">Quiz Game</div>
     </div>
 
-    <div><img class="image5" src="assets/images/circuit_board_image.avif">
-        <div class="project5">New Project coming soon!</div>
+    <div><a href="https://jesusoyer.github.io/Weather-Dashboard/"><img class="otherProjects" src="images/weatherDashboard.png"></a>
+        <div class="project">Weather Dashboard</div>
     </div>
-    <div><img class="image6" src="assets/images/pakata-goh-RDolnHtjVCY-unsplash.jpg">
-        <div class="project6">New Project coming soon!</div>
+    <div><img class="otherProjects" src="images/pakata-goh-RDolnHtjVCY-unsplash.jpg">
+        <div class="project">New Project coming soon!</div>
     </div>
 
 </div>
-    <footer>
-        <h3 >My contact information</h3>
 
-    <div class="contact">
-        <ul id="bottom">
-            <li>oyervidesjesus017@gmail.com</li>
-            <li><a href="https://www.linkedin.com/feed/">linked in</a></li>
-            <li><a href="">GitHub</li>
-        </ul>
-    </div>
-        <h4><a href="#name">Back to top </a></h4>
-    </footer>
-       
+<footer>
+  <div class="flex-containerSocial">
+    <div class="email">email: oyervidesjesus017@gmail.com</div>
+    <div class="github"><a href="https://github.com/jesusoyer"><img src="images/GitHub_Logo_White.png" class="githubImage"></a></div>
 
+    <div class="linkedin"><a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png"
+        class="linkedinImage"></a></div>
+  </div>
+  <div class="containerBottom"id="bottom"><a class="linkColor"href="#top">Back to Top</div></a>
+
+</footer>
 
 
+    <script src="script.js"></script>
 </body>
 </html>
