@@ -37,7 +37,7 @@ html{
     color:blanchedalmond;
     margin-top:5%;
     font-size:25px;
-    margin-left:50%;
+ 
    }
    .containerBottom{
        display:flex;
@@ -89,7 +89,7 @@ html{
 .skills{
     color:blanchedalmond;
     text-align: center;
-    font-size: 200%;
+    font-size: 150%;
     font-family: 'Rajdhani', sans-serif;
 }
 
@@ -97,11 +97,13 @@ html{
     width:20%;
     margin-left: 40%;
     border-radius: 100%;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .flex-containerFeatureName{
-margin-left:25%;
+    display:flex;
+    justify-content: center;
+    color:blanchedalmond;
 
 }
 
@@ -120,8 +122,10 @@ margin-left:25%;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     margin-top: 40px;
-    grid-column-gap: 10em;
-    grid-row-gap:3em;   
+    grid-column-gap: 5em;
+    /* grid-row-gap:3em;    */
+    justify-content: center;
+    margin-right:20%;
 }
 .wrapper> div{
    
@@ -133,8 +137,8 @@ margin-left:25%;
 /* css rules for grid*/
 
 .otherProjects{
-    width:400px;
-    height: 300px;
+    width:300px;
+    height: 200px;
    
     border-style: solid;
     
@@ -148,7 +152,7 @@ margin-left:25%;
     padding: 10px;
     position:relative;
     left:105px;
-    bottom: 50px;
+    bottom: 40px;
     color:crimson;
 }
 
@@ -183,12 +187,18 @@ margin-left:25%;
 
 
   @media (max-width: 768px) {
+      .profilepic{
+          display:flex;
+          justify-content: center;
+          width:50%;
+      }
     .wrapper{
         display: grid;
         grid-template-columns: 30%;
         margin-top: 40px;
         grid-column-gap: 7em;
-        grid-row-gap:3em;   
+        grid-row-gap:3em;
+        justify-content: left;   
     }
     .otherProjects{
         width:400px;
@@ -210,15 +220,23 @@ margin-left:25%;
         margin-left:100px;
         
         }
+        .jumbotron{
+            margin-top:5%;
+            margin-left:50%;
+            color:blanchedalmond;
+           }
+           .display-4{
+               display:flex;
+               justify-content: center;
+           }
   }
   @media (max-width: 1024px) {
-    .jumbotron{
-        margin-top:5%;
-        margin-left:50%;
-        color:blanchedalmond;
-       }
+    .lead{
+        display:flex;
+        justify-content: center;
+
   }
-  @media (max-width: 1200px) {
+  /* @media (max-width: 1200px) {
     .jumbotron{
         margin-top:5%;
         margin-left:50%;
@@ -231,4 +249,4 @@ margin-left:25%;
         margin-left:50%;
         color:blanchedalmond;
        }
-  }
+  } */
