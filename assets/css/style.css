@@ -6,7 +6,9 @@ html{
     -o-background-size: cover;
     background-size: cover;
 }
-
+.resumeClass{
+    width: 800px;
+}
 
 .flex-container {
     display: flex;
