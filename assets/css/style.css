@@ -91,6 +91,7 @@ html{
     text-align: center;
     font-size: 150%;
     font-family: 'Rajdhani', sans-serif;
+    margin-top: 50px;
 }
 
 .profilepic{
@@ -228,7 +229,7 @@ html{
                justify-content: center;
            }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1024px) {}
     .lead{
         display:flex;
         justify-content: center;
