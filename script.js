@@ -10,7 +10,7 @@ let randomIndex = Math.floor(quotes.length * Math.random());
 
 
 
-header.textContent = "My Portfolio"
+header.textContent = "Welcome, "
 intro.textContent = "My name is Jesus Oyervides jr, I am a proactive and personable aspiring full-stack web developer currently pursuing a Web Development Boot Camp professional certification from the University of Texas in Austin. A strong team player and proven leader, taking point on multiple group projects. Passionate about web development, and a quick learner of web development technologies."
 skills.textContent="I am skilled and familiar with many web based technologies that are necessary for full stack development. Technologies such as Javascript, node.js, MySQL, Sequelize, Express.js and Express-sessions."
 
