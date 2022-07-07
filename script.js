@@ -11,8 +11,8 @@ let randomIndex = Math.floor(quotes.length * Math.random());
 
 
 header.textContent = "My Portfolio"
-intro.textContent = "My name is Jesus Oyervides jr, I am currently a student in the UT full stack software development bootcamp. Welcome to my portfolio page! I am excited to show you what projects I have worked on."
-skills.textContent="The current languages I know thus far are, HTML, CSS and Javascript. I am currently learning Node.js and will learn many more. Please explore my page to see what I've worked on."
+intro.textContent = "My name is Jesus Oyervides jr, I am a proactive and personable aspiring full-stack web developer currently pursuing a Web Development Boot Camp professional certification from the University of Texas in Austin. A strong team player and proven leader, taking point on multiple group projects. Passionate about web development, and a quick learner of web development technologies."
+skills.textContent="I am skilled and familiar with many web based technologies that are necessary for full stack development. Technologies such as Javascript, node.js, MySQL, Sequelize, Express.js and Express-sessions."
 
 randomQuote.textContent=quotes[randomIndex]
 
