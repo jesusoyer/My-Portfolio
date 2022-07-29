@@ -1,6 +1,6 @@
 
 html{
-    background: url('background3.jpg') no-repeat center center fixed;
+    background: url() no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,30 +13,32 @@ html{
 .flex-container {
     display: flex;
    justify-content: center;
-   color:blanchedalmond;
+   color:black;
   }
 
   .flex-containerSocial{
     display: flex;
     justify-content: center;
-    
+    background-image: url("profile\ banner\ image.jpg"); 
     margin-right:40%;
     margin-top:40px;
-    background-color: crimson;
+   
     width:100%
 
    }
    .flex-containerNavbar{
     display: flex;
     justify-content: space-evenly;
-    color:blanchedalmond;
+    color:black;
     margin-top:40px;
-    font-size:20px
+    font-size:20px;
+    background-image: url("profile\ banner\ image.jpg"); 
+    height:50px
    }
    .flex-containerOtherProjects{
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
-    color:blanchedalmond;
+    color:black;
     margin-top:5%;
     font-size:25px;
  
@@ -44,37 +46,49 @@ html{
    .containerBottom{
        display:flex;
        justify-content: center;
-       color:blanchedalmond;
+       color:black;
        font-size:20px;
    }
   
-   .jumbotron{
-    margin-top:5%;
-    margin-left:20%;
-    color:blanchedalmond;
-   }
+  
    .display-4{
        margin-left:25%;
        font-family: 'Rajdhani', sans-serif;
+       margin-top:10%;
+       text-align: center;
+       margin-bottom:5%;
+       background-image: url("profile\ banner\ image.jpg"); 
+       width:50%
    }
-   .eagleeye{
-    width:50%;
+   
+   
+   .featuredProjectImageContainer{
+    width:85%;
     margin-left:10%;
-    box-shadow: 10px 10px 5px crimson;
+   
    }
-   .eagleeye:hover {
-    background-size: 400px 400px;
-    width:600px;
-    height: 500px;
-}
+ 
 .githubImage{
     width:100px;
 }
 
+.featuredContainer{
+display:flex;
+justify-content: space-around;
 
+}
+
+.featuredProjectName{
+    width: 100%;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    
+
+}
   
 .header{
-    color:blanchedalmond;
+    color:black;
     text-align: center;
     font-size: 500%;
     font-family: 'Rajdhani', sans-serif;
@@ -82,14 +96,17 @@ html{
 }
 
 .introduction{
-    color:blanchedalmond;
+    color:black;
     text-align: center;
-    font-size: 200%;
+    margin-top: 120px;
+    margin-left: 21px;
+
+    font-size: 30px;
     font-family: 'Rajdhani', sans-serif;
 }
 
 .skills{
-    color:blanchedalmond;
+    color:black;
     text-align: center;
     font-size: 150%;
     font-family: 'Rajdhani', sans-serif;
@@ -97,16 +114,21 @@ html{
 }
 
 .profilepic{
-    width:20%;
-    margin-left: 40%;
-    border-radius: 100%;
+    width:60%;
+    margin-left: 20%;
+    border-radius: 5%;
     margin-top: 5%;
+}
+.introBox{
+    display:inline-flex;
+    justify-content: space-around;
+
 }
 
 .flex-containerFeatureName{
     display:flex;
     justify-content: center;
-    color:blanchedalmond;
+    color:black;
 
 }
 
@@ -145,7 +167,7 @@ html{
     
     margin-left:100px;
     border-width: 5px;
-    box-shadow: 10px 5px 5px crimson;
+    box-shadow: 10px 5px 5px black;
 }
 .project{
     text-align: center;
@@ -154,7 +176,7 @@ html{
     position:relative;
     left:105px;
     bottom: 40px;
-    color:crimson;
+    color:black;
 }
 
 .otherProjects:hover {
@@ -163,10 +185,10 @@ html{
     height: 220px;
 }
 .linkColor:link{
-    color:crimson;
+    color:black;
 }
 .linkColor:visited {
-    color:crimson;
+    color:black;
     
   }
 
@@ -224,7 +246,7 @@ html{
         .jumbotron{
             margin-top:5%;
             margin-left:50%;
-            color:blanchedalmond;
+            
            }
            .display-4{
                display:flex;
