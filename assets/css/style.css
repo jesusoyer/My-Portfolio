@@ -1,275 +1,109 @@
 
-html{
-    background: url() no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+
+/*link css*/
+a:link{
+    text-decoration: none;
+    
 }
-.resumeClass{
-    width: 800px;
-}
-
-.flex-container {
-    display: flex;
-   justify-content: center;
-   color:black;
-  }
-
-  .flex-containerSocial{
-    display: flex;
-    justify-content: center;
-    background-image: url("profile\ banner\ image.jpg"); 
-    margin-right:40%;
-    margin-top:40px;
-   
-    width:100%
-
-   }
-   .flex-containerNavbar{
-    display: flex;
-    justify-content: space-evenly;
+a:visited{
     color:black;
-    margin-top:40px;
-    font-size:20px;
-    background-image: url("profile\ banner\ image.jpg"); 
-    height:50px
-   }
-   .flex-containerOtherProjects{
-    font-family: 'Rajdhani', sans-serif;
-    text-align: center;
-    color:black;
-    margin-top:5%;
-    font-size:25px;
- 
-   }
-   .containerBottom{
-       display:flex;
-       justify-content: center;
-       color:black;
-       font-size:20px;
-   }
-  
-  
-   .display-4{
-       margin-left:25%;
-       font-family: 'Rajdhani', sans-serif;
-       margin-top:10%;
-       text-align: center;
-       margin-bottom:5%;
-       background-image: url("profile\ banner\ image.jpg"); 
-       width:50%
-   }
-   
-   
-   .featuredProjectImageContainer{
-    width:85%;
-    margin-left:10%;
-   
-   }
- 
-.githubImage{
-    width:100px;
 }
-
-.featuredContainer{
-display:flex;
-justify-content: space-around;
-
+a:hover{
+    color:red;
 }
-
-.featuredProjectName{
-    width: 100%;
-    text-align: left;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 20px;
+/*main container css*/
+.container{
+    width:50%;
+    margin: 0 auto;
+    
     
 
-}
-  
-.header{
-    color:black;
-    text-align: center;
-    font-size: 500%;
-    font-family: 'Rajdhani', sans-serif;
-    margin-top:5%;
+    
 }
 
-.introduction{
-    color:black;
-    text-align: center;
-    margin-top: 120px;
-    margin-left: 21px;
-
+/*flex container css*/
+.flex-containerNavbar{
+    display: flex;
     font-size: 30px;
+    background-color: #f8f8ff;
+    border-radius: 25%;
+    
+   }
+.logoName{
+    font-family: 'Old Standard TT', serif;
     font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-right:auto;
+
 }
 
-.skills{
-    color:black;
+.gridContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: #f8f8ff; */
+    
+}
+
+.nav{
+    font-family: 'Old Standard TT', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif;
+    margin-right: 12px;
+    margin-left: 12px;
+    
+}
+/* home page css */
+.brandStatement{
     text-align: center;
-    font-size: 150%;
-    font-family: 'Rajdhani', sans-serif;
-    margin-top: 50px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-top: 30%;
+    font-size: 25px;
 }
 
-.profilepic{
-    width:60%;
-    margin-left: 20%;
-    border-radius: 5%;
-    margin-top: 5%;
+.profileImage{
+width:60%;
+margin-left: 20%;
+margin-top:20%;
+border-radius: 5%;
+border-style: solid;
+border-color: #f8f8ff;
+border-width: 12px;
+box-sizing: border-box;
+
 }
-.introBox{
-    display:inline-flex;
+
+
+/*footer css*/
+  .footerFlexContainer{
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-color: #f8f8ff;
     justify-content: space-around;
+    font-size: 30px;
+    margin-top: 10%;
+    height: 150px;
+     
 
-}
-
-.flex-containerFeatureName{
-    display:flex;
-    justify-content: center;
-    color:black;
-
-}
-
-
-.email{
-    margin-top:15px;
-}
-.github{
+   }
+  
+ 
+  
+  
+  
    
-}
-.linkedinImage{
-    width:40px;
-    margin-top:2px;
-}
-.wrapper{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    margin-top: 40px;
-    grid-column-gap: 5em;
-    /* grid-row-gap:3em;    */
-    justify-content: center;
-    margin-right:20%;
-}
-.wrapper> div{
    
-    padding: 2px;
-    width:300px;
-    height: 300px;
    
-}
-/* css rules for grid*/
-
-.otherProjects{
-    width:300px;
-    height: 200px;
-    
-    margin-left:100px;
-    border-width: 5px;
-    box-shadow: 10px 5px 5px black;
-}
-.project{
-    text-align: center;
-    /*opacity:0.5;*/
-    padding: 10px;
-    position:relative;
-    left:105px;
-    bottom: 40px;
-    color:black;
-}
-
-.otherProjects:hover {
-    background-size: 400px 400px;
-    width:320px;
-    height: 220px;
-}
-.linkColor:link{
-    color:black;
-}
-.linkColor:visited {
-    color:black;
-    
-  }
-
-
-  @media (max-width: 480px) {
-    .wrapper{
-        display: grid;
-        grid-template-columns: 30%;
-        margin-top: 40px;
-        grid-column-gap: 6em;
-        grid-row-gap:3em;   
-    }
-  }
+  
+ 
 
 
 
 
 
+  
 
 
-  @media (max-width: 768px) {
-      .profilepic{
-          display:flex;
-          justify-content: center;
-          width:50%;
-      }
-    .wrapper{
-        display: grid;
-        grid-template-columns: 30%;
-        margin-top: 40px;
-        grid-column-gap: 7em;
-        grid-row-gap:3em;
-        justify-content: left;   
-    }
-    .otherProjects{
-        width:400px;
-        height: 300px;
-       
-        border-style: solid;
-        
-        margin-left:100px;
-        border-width: 5px;
-        box-shadow: 10px 5px 5px crimson;
-    }
-    .eagleeye{
-        width:500px;
-        height: 300px;
-        margin-left:10%;
-        box-shadow: 10px 10px 5px crimson;
-       }
-       .flex-containerFeatureName{
-        margin-left:100px;
-        
-        }
-        .jumbotron{
-            margin-top:5%;
-            margin-left:50%;
-            
-           }
-           .display-4{
-               display:flex;
-               justify-content: center;
-           }
-  }
-  @media (max-width: 1024px) {}
-    .lead{
-        display:flex;
-        justify-content: center;
-
-  }
-  /* @media (max-width: 1200px) {
-    .jumbotron{
-        margin-top:5%;
-        margin-left:50%;
-        color:blanchedalmond;
-       }
-  }
-  @media (max-width: 1201px) {
-    .jumbotron{
-        margin-top:5%;
-        margin-left:50%;
-        color:blanchedalmond;
-       }
-  } */
