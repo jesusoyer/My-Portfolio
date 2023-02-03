@@ -10,11 +10,12 @@ a:visited{
     color:black;
 }
 a:hover{
-    color:red;
+    
+    background-color: lightgray;
 }
 /*main container css*/
 .container{
-    width:50%;
+    width:60%;
     margin: 0 auto;
     
     
@@ -27,67 +28,130 @@ a:hover{
     display: flex;
     font-size: 30px;
     background-color: #f8f8ff;
-    border-radius: 25%;
+    border-bottom: 1px solid gainsboro;
+
+
     
    }
 .logoName{
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Rajdhani', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Caslon Display', serif;
     margin-right:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 12px;
 
 }
+.linkColor{
+    
+    border-radius: 10%;
+}
+
 
 .gridContainer{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    /* background-color: #f8f8ff; */
-    
+    margin-bottom: 10%;
+}
+.projectsGrid{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+ 
+    gap: 1em;
+    margin-top: 10%;
+}
+.featuredProject{
+    grid-column: 1/ span 3;
+    text-align: center;
+}
+.moreProjects{
+    grid-column: 1/ span 3;
+    text-align: center;
+    margin-bottom: 10%;
+    color:gray;
 }
 
 .nav{
-    font-family: 'Old Standard TT', serif;
-font-family: 'Rajdhani', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Caslon Display', serif;
+
     margin-right: 12px;
     margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* background: rgba(76, 175, 80, 0.2); */
     
 }
 /* home page css */
 .brandStatement{
+    font-family: 'Libre Caslon Display', serif;
     text-align: center;
     margin-top: 20%;
     margin-bottom: 20%;
     margin-top: 30%;
     font-size: 25px;
+    margin-right: 20%;
+    
 }
 
 .profileImage{
 width:60%;
 margin-left: 20%;
 margin-top:20%;
-border-radius: 5%;
-border-style: solid;
-border-color: #f8f8ff;
+border-radius: 3%;
 border-width: 12px;
 box-sizing: border-box;
 
+}
+/* project page images*/
+.projectHeader{
+    grid-column: 1/ span 3; 
+    font-family: 'Libre Caslon Display', serif;
+    text-align: center;
+    font-size: 40px;
+}
+.featuredImage{
+width:100%;
+border-radius: 3% 3% 0 0;
+}
+.featuredProject{
+    background-color: #f8f8ff;
+    border-radius: 3%;
+   
+}
+.featuredProject:hover{
+    background-color:lightgray;
+    
+
+}
+.projectImages{
+    width:100%;
+    border-radius: 3% 3% 0 0;
+}
+.projectColumns{
+    font-family: 'Libre Caslon Display', serif;
+    background-color: #f8f8ff;
+    border-radius: 3%;
+    text-align: center;
+}
+.projectColumns:hover{
+   background-color:lightgray;
+    
+    
 }
 
 
 /*footer css*/
   .footerFlexContainer{
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Rajdhani', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Caslon Display', serif;
     display: flex;
     background-color: #f8f8ff;
     justify-content: space-around;
     font-size: 30px;
-    margin-top: 10%;
-    height: 150px;
-     
-
+    box-shadow: 10px 10px 10px #aaaaaa;
+    height: 120px;
+    margin-top: 12px;
+   }
+   .footerLinks{
+    margin-top: 30px;
    }
   
  
