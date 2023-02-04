@@ -143,6 +143,7 @@ border-radius: 3% 3% 0 0;
     grid-template-columns: 2fr 2fr;
     margin-top: 5%;
     gap: 1em;
+    margin-bottom: 10%;
     
 }
 .moreInfoImage{
