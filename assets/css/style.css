@@ -127,7 +127,7 @@ border-radius: 3% 3% 0 0;
     border-radius: 3% 3% 0 0;
 }
 .projectColumns{
-    font-family: 'Libre Caslon Display', serif;
+   font-family: 'Libre Caslon Display', serif; 
     background-color: #f8f8ff;
     border-radius: 3%;
     text-align: center;
@@ -136,6 +136,45 @@ border-radius: 3% 3% 0 0;
    background-color:lightgray;
     
     
+}
+/* More info grid*/
+.contactContainer{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 5%;
+    gap: 1em;
+    
+}
+.moreInfoImage{
+    width:100%;
+    border-radius: 3% 3% 0 0;
+}
+.moreInfoCard{
+    font-family: 'Libre Caslon Display', serif;
+    background-color: #f8f8ff;
+    border-radius: 3%;
+}
+
+/* qrl page grid and css*/
+.qrlgridContainer{
+    display:grid;
+    grid-template-columns: 2fr ;
+ 
+    gap: 1em;
+    margin-top: 10%;
+}
+.qrlContainer{
+    place-items: center;
+}
+.qrlHeader{
+    text-align: center;
+    font-size: 30px;
+}
+
+.qrlImage{
+    width:80%;
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 
